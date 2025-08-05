@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Currency</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Essential Scripts (Order matters!) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="./main.js"></script>
+</head>
+
+<body>
+    <h1>The World Of Crypto Currency</h1>
+
+    <div class="container">
+        <h2>RONEN COHEN</h2>
+        <button type="button" class="btnCollapse" data-toggle="collapse" data-target="#resumeMY">Who Am I @</button>
+        <div id="resumeMY" class="collapse">
+            <br><br>
+            <h3>About Me:</h3>
+            <p>I'm a professional full-stack web developer with a passion for building efficient, scalable, and
+                user-friendly applications.</p>
+            <p>With expertise in Python, JavaScript, SQL (MySQL, PostgreSQL), MongoDB, and Linux, I specialize in
+                designing and optimizing databases, developing robust backend systems, and creating seamless front-end
+                experiences.</p>
+            <p>Whether it's API development, cloud deployments, or database management, I thrive on solving complex
+                problems and continuously expanding my skill set.</p>
+            <p>I'm always eager to work on innovative projects and collaborate with like-minded developers.</p>
+            <p>Let's build something great together! 🚀</p>
+        </div>
+    </div>
+
+    <div class="controls-container">
+        <button class="btn" id="homeButton">Home</button>
+        <button class="btn">Live Reports</button>
+        <input type="text" id="inputTextBox" placeholder="Search Coins">
+        <button class="btn" id="searchButton">Search</button>
+
+
+    </div>
+
+    <div id="divContainer" class="divContainer"></div>
+    <div id="divAboute" class="collapse in"></div>
+    <div id="coinfinder"></div>
+    <div id="liveReportSection"></div>
+
+
+</body>
+
+</html>
